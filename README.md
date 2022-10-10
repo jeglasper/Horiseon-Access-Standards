@@ -16,7 +16,7 @@ N/A
 
 You can use the updated Horiseon webpage to review the products and services Horiseon offers and to understand the benefits the products & services can bring your company. Each element of the site contains proper heading attributes and alt attributes that make the website accessible to those with disabilities as well to review what Horiseon can offer to their potential client while keeping a consistent visual user experience.
 
-Check out the deployed Github Pages application at []().
+Check out the deployed Github Pages application at [https://jeglasper.github.io/Horiseon-Access-Standards/](https://jeglasper.github.io/Horiseon-Access-Standards/).
 
 ![Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page with a footer.](./Develop/assets/images/Horiseon-Access-Standard-Final-Result.jpg)
 
