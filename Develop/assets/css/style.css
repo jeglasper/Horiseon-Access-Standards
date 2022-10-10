@@ -1,13 +1,17 @@
+/*Universal Selector that includes any border or padding within
+the width and/or height for any element you set> */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*Semantic Structure Styling of all elements within the <body> element*/
 body {
     background-color: #d9dcd6;
 }
 
+/*Semantic Structure Styling of <header> element */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -20,10 +24,13 @@ header h1 {
     font-size: 48px;
 }
 
+/*Class Selector to change the Color of the letter grouping "seo"
+within the header to be different than the other letters */
 .seo {
     color: #d9dcd6;
 }
 
+/*Semantic Structure Stlying of Navigation Links (<nav> element) */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -46,10 +53,7 @@ header nav ul li {
     margin-left: 25px;
 }
 
-p {
-    font-size: 16px;
-}
-
+/*Class Selector of <figure> element - makes image under the header visible*/
 .hero {
     height: 800px;
     width: 100%;
@@ -59,6 +63,11 @@ p {
     background-position: center;
 }
 
+/*Semantic Structure - Sets font size for all <p> elements */
+p {
+    font-size: 16px;
+}
+/*Class Selectors - set positioning of images within the <main> element*/
 .float-left {
     float: left;
     margin-right: 25px;
@@ -69,7 +78,8 @@ p {
     margin-left: 25px;
 }
 /**
- * Visually hide an element, but leave it available for screen readers
+ * Class selector to visually hide an element, but leave it available for screen readers
+ * Create Sequential HTML Attributes that translate to accessibility standards
  * @link https://github.com/h5bp/html5-boilerplate/blob/master/dist/css/main.css
  * @link http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
  * Used MIT licenced code - See README for Full Citation @link https://gomakethings.com/hidden-content-for-better-a11y/#hiding-the-link
@@ -85,13 +95,15 @@ p {
 	white-space: nowrap;
 	width: 1px;
 }
-
+/*Semantic Structure Styling for All information on Products & Services Offered
+by Horiseon */
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/*Class Selector for Each Products & Services Offered
+by Horiseon */
 .product-card {
     margin-bottom: 20px;
     padding: 50px;
@@ -110,6 +122,8 @@ main {
     font-size: 36px;
 }
 
+/* Semantic Structure Styling for All Benefits of the Products 
+& Services Offered by Horiseon*/
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -121,6 +135,8 @@ aside {
     background-color: #2589bd;
 }
 
+/*Class Selector for Each Benefit Customers will recieve from the
+Products & Services Offered by Horiseon */
 .benefits {
     margin-bottom: 32px;
     color: #ffffff;
@@ -137,6 +153,7 @@ aside {
     max-width: 150px;
 }
 
+/*Semeantic Structure Styling for <footer> element */
 footer {
     padding: 30px;
     clear: both;
