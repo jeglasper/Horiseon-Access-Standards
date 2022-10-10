@@ -20,6 +20,7 @@ Check out the deployed Github Pages application at []().
 
 ![Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page with a footer.](./Develop/assets/images/Horiseon-Access-Standard-Final-Result.jpg)
 
+Check out the application GitHub repository [https://github.com/jeglasper/Horiseon-Access-Standards](https://github.com/jeglasper/Horiseon-Access-Standards).
 
 ## Credits
 
