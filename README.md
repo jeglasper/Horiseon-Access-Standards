@@ -18,14 +18,19 @@ You can use the updated Horiseon webpage to review the products and services Hor
 
 Check out the deployed Github Pages application at [https://jeglasper.github.io/Horiseon-Access-Standards/](https://jeglasper.github.io/Horiseon-Access-Standards/).
 
-![Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page with a footer.](./Develop/assets/images/Horiseon-Access-Standard-Final-Result.jpg)
+![Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page with a footer.](./assets/images/Horiseon-Access-Standard-Final-Result.jpg)
 
 Check out the application GitHub repository [https://github.com/jeglasper/Horiseon-Access-Standards](https://github.com/jeglasper/Horiseon-Access-Standards).
 
 ## Credits
+
+UTSA Bootcamp (2022). 01-HTML-Git-CSS / 02-Challenge / Develop (Version 1) [Source Code]. https://utsa.bootcampcontent.com/utsa-bootcamp/UTSA-VIRT-FSF-PT-10-2022-U-LOLC/-/tree/main/01-HTML-Git-CSS/02-Challenge/Develop 
 
 Ferdinandi, Chris (2016). Hidden Content for Better Ally. (Version 2) [Source Code]. https://gomakethings.com/hidden-content-for-better-a11y/#hiding-the-link
 
 ## License
 
 Please refer to the LICENSE in the repo.
+
+
+[def]: ./Develop/assets/images/Horiseon-Access-Standard-Final-Result.jpg
