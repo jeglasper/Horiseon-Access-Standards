@@ -17,6 +17,7 @@ header {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
+    width: 100%;
 }
 
 header h1 {
@@ -30,7 +31,7 @@ within the header to be different than the other letters */
     color: #d9dcd6;
 }
 
-/*Semantic Structure Stlying of Navigation Links (<nav> element) */
+/*Semantic Structure Styling of Navigation Links (<nav> element) */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -77,13 +78,13 @@ p {
     float: right;
     margin-left: 25px;
 }
-/**
- * Class selector to visually hide an element, but leave it available for screen readers
- * Create Sequential HTML Attributes that translate to accessibility standards
- * @link https://github.com/h5bp/html5-boilerplate/blob/master/dist/css/main.css
- * @link http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
- * Used MIT licenced code - See README for Full Citation @link https://gomakethings.com/hidden-content-for-better-a11y/#hiding-the-link
- */
+/*
+Added H2 Headings "Products & Services" & "Benefits" to HTML in order to add additional accessibility structures to make sense of what is being presented on the page for site visitors who are visually impaired. This will allow the screen reader to give the categories for what the client is trying to present. 
+
+The following class selector makes those H2 headings invisible to the visual site but leaves it available for the screen reader.
+
+Utitlized MIT Licensed Code avaialble at @link https://gomakethings.com/hidden-content-for-better-a11y/#hiding-the-link. Full citation available in README.md */
+
 .screen-reader {
 	border: 0;
 	clip: rect(0 0 0 0);
@@ -161,6 +162,6 @@ footer {
     text-align: center;
 }
 
-footer h2 {
+footer h4 {
     font-size: 20px;
 }
