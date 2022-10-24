@@ -1,17 +1,15 @@
-/*Universal Selector that includes any border or padding within
-the width and/or height for any element you set> */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-/*Semantic Structure Styling of all elements within the <body> element*/
+/*Body Background Color*/
 body {
     background-color: #d9dcd6;
 }
 
-/*Semantic Structure Styling of <header> element */
+/*Header Layout & Styling*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -25,13 +23,12 @@ header h1 {
     font-size: 48px;
 }
 
-/*Class Selector to change the Color of the letter grouping "seo"
-within the header to be different than the other letters */
+/*Makes "seo" in H1 a different color*/
 .seo {
     color: #d9dcd6;
 }
 
-/*Semantic Structure Styling of Navigation Links (<nav> element) */
+/*Navigation Links Layout & Styling */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -54,7 +51,7 @@ header nav ul li {
     margin-left: 25px;
 }
 
-/*Class Selector of <figure> element - makes image under the header visible*/
+/*Adds Image Under Header*/
 .hero {
     height: 800px;
     width: 100%;
@@ -64,11 +61,11 @@ header nav ul li {
     background-position: center;
 }
 
-/*Semantic Structure - Sets font size for all <p> elements */
+/*P Font-Size*/
 p {
     font-size: 16px;
 }
-/*Class Selectors - set positioning of images within the <main> element*/
+/*Image Positioning in Product-Card*/
 .float-left {
     float: left;
     margin-right: 25px;
@@ -78,13 +75,7 @@ p {
     float: right;
     margin-left: 25px;
 }
-/*
-Added H2 Headings "Products & Services" & "Benefits" to HTML in order to add additional accessibility structures to make sense of what is being presented on the page for site visitors who are visually impaired. This will allow the screen reader to give the categories for what the client is trying to present. 
-
-The following class selector makes those H2 headings invisible to the visual site but leaves it available for the screen reader.
-
-Utitlized MIT Licensed Code avaialble at @link https://gomakethings.com/hidden-content-for-better-a11y/#hiding-the-link. Full citation available in README.md */
-
+/*Accessibility H2s Invisible on Webpage*/
 .screen-reader {
 	border: 0;
 	clip: rect(0 0 0 0);
@@ -96,15 +87,14 @@ Utitlized MIT Licensed Code avaialble at @link https://gomakethings.com/hidden-c
 	white-space: nowrap;
 	width: 1px;
 }
-/*Semantic Structure Styling for All information on Products & Services Offered
-by Horiseon */
+
+/*Product-Card Grid Position, Layout & Styling*/
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-/*Class Selector for Each Products & Services Offered
-by Horiseon */
+
 .product-card {
     margin-bottom: 20px;
     padding: 50px;
@@ -123,8 +113,7 @@ by Horiseon */
     font-size: 36px;
 }
 
-/* Semantic Structure Styling for All Benefits of the Products 
-& Services Offered by Horiseon*/
+/* Benefits Side Bar Grid Position, Layout & Styling*/
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -136,8 +125,6 @@ aside {
     background-color: #2589bd;
 }
 
-/*Class Selector for Each Benefit Customers will recieve from the
-Products & Services Offered by Horiseon */
 .benefits {
     margin-bottom: 32px;
     color: #ffffff;
@@ -154,7 +141,7 @@ Products & Services Offered by Horiseon */
     max-width: 150px;
 }
 
-/*Semeantic Structure Styling for <footer> element */
+/*Footer Layout/Styling*/
 footer {
     padding: 30px;
     clear: both;
